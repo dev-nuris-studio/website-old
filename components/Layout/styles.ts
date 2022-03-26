@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { up } from 'styled-breakpoints';
+// @ts-expect-error: Let's ignore a compile error like this unreachable code
 import Scrollbar from 'react-smooth-scrollbar';
 
 export const Container = styled.div`

@@ -1,8 +1,9 @@
 import * as Styled from './styles';
 import { useRef, useEffect } from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 
-const Layout = ({ children }: any) => {
+const Layout = ({ children, footerNavigation }: any) => {
     const ref = useRef();
 
     useEffect(() => {
@@ -14,6 +15,7 @@ const Layout = ({ children }: any) => {
             <Header />
             <Styled.ScrollWrapper damping={0.1} ref={ref}>
                 {children}
+                <Footer footerNavigation={footerNavigation} />
             </Styled.ScrollWrapper>
         </Styled.Container>
     );
