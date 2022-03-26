@@ -4,7 +4,7 @@ import Modules from '@nextful/modules/mapping';
 import { fetchModuleData } from '@nextful/packages/module-connector';
 
 const fetchPageBySlug = async (slug: string) => {
-    if (!slug && slug !== '') {
+    if (!slug && slug?.trim() !== '') {
         throw new Error('Can´t fetch page without slug.');
     }
 

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    src:  url('/Urbanist/static/Urbanist-Medium.ttf'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+  }
+
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    src:  url('/Urbanist/static/Urbanist-Bold.ttf'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+  }
+
+@font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 900;
+    src:  url('/Urbanist/static/Urbanist-Black.ttf'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src:  url('/Manrope/static/Manrope-Regular.ttf'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
