@@ -1,18 +1,12 @@
-const fetchIndex = require('./fetchIndexPage');
-
 /** @type {import('next').NextConfig} */
 module.exports = {
   async redirects() {
     const redirects = [];
-    const page = await fetchIndex();
-
-    if (page) {
-      redirects.push({
+    redirects.push({
         source: '/',
-        destination: `/${page}`,
+        destination: `/startseite`,
         permanent: true,
       })
-    }
 
     return redirects;
   },

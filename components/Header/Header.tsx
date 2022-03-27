@@ -7,7 +7,7 @@ const Header = ({ className }: any) => {
                 <Styled.Inner>
                     <div />
                     <Styled.Logo />
-                    <Styled.MainContainer>sd</Styled.MainContainer>
+                    <Styled.MainContainer></Styled.MainContainer>
                 </Styled.Inner>
             </Styled.Container>
         </>
